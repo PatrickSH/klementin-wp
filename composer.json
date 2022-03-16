@@ -1,0 +1,17 @@
+{
+    "name": "klementinweb/klementin-wp",
+    "description": "Make WordPress developmemnt easier",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Klementinweb\\KlementinWp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Klementin",
+            "email": "kaffe@klementin.dk"
+        }
+    ],
+    "require": {}
+}
