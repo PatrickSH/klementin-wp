@@ -18,7 +18,7 @@ class Klementin_Wp_view {
 			$$key = $val;
 		}
 
-		$file = __DIR__ . '/../views/' . $name . '.php';
+		$file = __DIR__ . '/../../../../views/' . $name . '.php';
 
 		include( $file );
 	}
