@@ -3,7 +3,8 @@
     "description": "Make WordPress developmemnt easier",
     "type": "library",
     "autoload": {
-        "classmap": ["src"]
+        "classmap": ["src"],
+        "files": ["src/init.php"]
     },
     "authors": [
         {
