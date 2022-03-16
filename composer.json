@@ -3,9 +3,7 @@
     "description": "Make WordPress developmemnt easier",
     "type": "library",
     "autoload": {
-        "psr-4": {
-            "Klementinweb\\KlementinWp\\": "src/"
-        }
+        "classmap": ["src"]
     },
     "authors": [
         {
